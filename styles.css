@@ -1,10 +1,30 @@
-.header {
-    
+.header , .footer {
     background-color: rgba(0, 0, 0, 0.699);
     color: white;
-    text-align: center;
     padding: 10px;
 
+}
+.header {
+    text-align: center;
+
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer a {
+    color: white;
+    padding: 10px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.nav a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aqua;
 }
 .about {
     text-align: center;
